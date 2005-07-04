@@ -5,9 +5,9 @@ Version:	0.5.11
 Release:	0.1
 License:	GPL
 Group:		Libraries/Python
-Source0:	http://www.gnue.org/downloads/current/%{name}-%{version}.tar.gz
+Source0:	http://www.gnuenterprise.org/downloads/current/%{name}-%{version}.tar.gz
 # Source0-md5:	24e4ea106769345f68b38ba95560b7a5
-URL:		http://www.gnue.org/
+URL:		http://www.gnuenterprise.org/
 BuildRequires:	gnue-common
 BuildRequires:	python
 BuildRequires:	python-devel
