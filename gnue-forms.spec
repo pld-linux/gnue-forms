@@ -1,5 +1,5 @@
 Summary:	GNUe Forms - a data-aware user-interface generator
-#Summary(pl):	
+Summary(pl):	GNUe Forms - generator interfejsów u¿ytkownika dla danych
 Name:		gnue-forms
 Version:	0.5.11
 Release:	0.1
@@ -13,6 +13,7 @@ BuildRequires:	python
 BuildRequires:	python-devel
 Requires:	gnue-common
 Requires:	python
+Obsoletes:	GNUe-Forms
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -24,10 +25,19 @@ from the ground up to describe a functional, database-backed interface,
 with no emphasis on particular widget sets. A form should be equally
 usable in a console/text-based environment as it is in a GUI setting.
 
-#%description -l pl
+%description -l pl
+GNUe Forms to generator interfejsów u¿ytkownika dla danych. Bardziej
+konkretnie, Forms przy u¿yciu czystych definicji opartych na XML-u
+mo¿e wy¶wietlaæ ten sam funkcjonalny interfejs u¿ytkownika na ró¿nych
+mediach fizycznych - w GUI, HTML-u, na konsoli albo poprzez system
+odpowiedzi telefonicznych. Forms s± zaprojektowane od pocz±tku tak, by
+opisywa³y funkcjonalny interfejs oparty na bazie danych, niezale¿nie
+od konkretnego zestawu widgetów. Formularz powinien byæ tak samo
+u¿ywalny w ¶rodowisku konsolowym/tekstowym, jak i w ¶rodowisku
+graficznym.
 
 %prep
-%setup -q -n %{name}-%{version}
+%setup -q
 
 %install
 rm -rf $RPM_BUILD_ROOT
