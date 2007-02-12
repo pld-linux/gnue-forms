@@ -1,5 +1,5 @@
 Summary:	GNUe Forms - a data-aware user-interface generator
-Summary(pl):	GNUe Forms - generator interfejsÛw uøytkownika dla danych
+Summary(pl.UTF-8):   GNUe Forms - generator interfejs√≥w u≈ºytkownika dla danych
 Name:		gnue-forms
 Version:	0.5.11
 Release:	0.1
@@ -25,15 +25,15 @@ from the ground up to describe a functional, database-backed interface,
 with no emphasis on particular widget sets. A form should be equally
 usable in a console/text-based environment as it is in a GUI setting.
 
-%description -l pl
-GNUe Forms to generator interfejsÛw uøytkownika dla danych. Bardziej
-konkretnie, Forms przy uøyciu czystych definicji opartych na XML-u
-moøe wy∂wietlaÊ ten sam funkcjonalny interfejs uøytkownika na rÛønych
+%description -l pl.UTF-8
+GNUe Forms to generator interfejs√≥w u≈ºytkownika dla danych. Bardziej
+konkretnie, Forms przy u≈ºyciu czystych definicji opartych na XML-u
+mo≈ºe wy≈õwietlaƒá ten sam funkcjonalny interfejs u≈ºytkownika na r√≥≈ºnych
 mediach fizycznych - w GUI, HTML-u, na konsoli albo poprzez system
-odpowiedzi telefonicznych. Forms s± zaprojektowane od pocz±tku tak, by
-opisywa≥y funkcjonalny interfejs oparty na bazie danych, niezaleønie
-od konkretnego zestawu widgetÛw. Formularz powinien byÊ tak samo
-uøywalny w ∂rodowisku konsolowym/tekstowym, jak i w ∂rodowisku
+odpowiedzi telefonicznych. Forms sƒÖ zaprojektowane od poczƒÖtku tak, by
+opisywa≈Çy funkcjonalny interfejs oparty na bazie danych, niezale≈ºnie
+od konkretnego zestawu widget√≥w. Formularz powinien byƒá tak samo
+u≈ºywalny w ≈õrodowisku konsolowym/tekstowym, jak i w ≈õrodowisku
 graficznym.
 
 %prep
