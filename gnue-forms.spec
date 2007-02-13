@@ -1,5 +1,5 @@
 Summary:	GNUe Forms - a data-aware user-interface generator
-Summary(pl.UTF-8):   GNUe Forms - generator interfejsów użytkownika dla danych
+Summary(pl.UTF-8):	GNUe Forms - generator interfejsów użytkownika dla danych
 Name:		gnue-forms
 Version:	0.5.11
 Release:	0.1
